@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** User Defined Styles **/
+body{
+	background-color: #e2e2e2;
+	font-family: 'Open Sans', sans-serif;
+}
+.clearall{
+	clear: both;
+}
+.main-wrapper{
+	width: 960px;
+	background-color: white;
+	margin: 50px auto 0;
+	padding: 40px;
+}
+.logo-stuff{
+	float: left;
+}
+.social-icons{
+	float: right;
+
+}
+.social-links ul{
+	float: right;
+}
+.social-links ul li{
+	float: left;
+	margin-right: 5px;
+}
+.contact-social{
+	margin-top:50px;
+
+	}
+.contact-social ul {
+	float:right;
+	}
+.contact-social ul li{
+	float:left;
+	margin-right:10px;
+	}
+.mobile-margin{
+	margin-left:30px !important;
+}
+.nomargin{
+	margin-right: 0px !important;
+}
+#navigation{
+	margin-top: 10px;
+	background-color: black;
+	height:45px;
+}
+#navigation ul li{
+	margin:13px 0;
+	float: left;
+	border-right:1px solid #666666;
+}
+#navigation ul li a{
+	color: white;
+	text-decoration: none;
+	display:block;
+	padding:3px 15px;	
+}
+#navigation ul li a:hover{
+	background-color:#ffffff;
+	color:#000000;
+}
+.slider{
+	width:960px;
+	margin-top:30px;
+}
+.slide-image{
+	width:960px;
+}
+.describe{
+	margin-top:40px;
+	width:960px;
+}
+.dec_part{
+	width:300px;
+	float:left;
+	margin-right:25px;
+}
+.describe-image{
+	float:left;
+}
+.dec_part h2{
+	margin-left:40px;
+}
+.dec_part span{
+	margin:15px 0 0 40px;
+	display:block;
+}
+.recent-updates{
+	margin-top:20px;
+
+}
+.title-ru h2{
+	padding-right:10px;
+	float:left;
+}
+.title-ru span{
+	border-top:1px solid #e9e9e9;
+	width:850px;
+	display:block;
+	margin-top:8px;
+	float:right;
+}
+.ru_image{
+	width:220px;
+	margin:20px 26px 0 0;
+	float:left;
+}
+.ru_image span{
+	display:block;
+	margin-top:10px;
+	padding-top:10px;
+	border-top:1px solid #e9e9e9;
+}
+.our-clients{
+	margin-top:50px;
+}
+.clients-logo{
+	margin-top:20px;
+}
+.clients-logo ul li{
+	width:190px;
+	height:60px;
+	border:1px solid #e9e9e9;
+	text-align:center;
+	padding-top:20px;
+	float:left;
+}
+
+.bottom-container{
+	background-color:#303030;
+	width: 960px;
+	margin: 0px auto;
+	padding: 40px;
+	font-size:14px;
+}
+.bc-details{
+	width:230px;
+	height:200px;
+	float:left;
+	margin-right:10px;
+}
+.bc_title  {
+
+}
+.bc_title h2  {
+	padding-right:10px;
+	float:left;
+	z-index:99;
+	color:#ffffff;
+	background-color:#313031;
+	position:relative;
+	}
+.bc_title span {
+	height:1px;
+	float:left;
+	width:100%;
+	background-color:#fff;
+	position:relative;
+	top:-7px;
+	z-index:3;
+}
+.bc_content{
+	margin-top:20px;
+}
+.bc_content span{
+	color:#ffffff;
+	margin-bottom:20px;
+	display:block;	
+}
+.arrowimg{
+	float:left;	
+	margin-top:4px;
+}
+.usefullinks li {
+	background-image:url('../images/arrow.png') ;
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	margin-top:10px;
+}
+.usefullinks li  a{
+	color:#ffffff;
+	text-decoration:none;
+}
+.usefullinks li  a:hover{
+	color:#666666;
+}
+.bc_content-image li {
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.border-footer{
+	margin-top:30px;
+	border-top:1px solid #3c3c3c;
+}
+.copyrightmsg{
+	font-size:14px;
+	color:#ffffff;
+	padding:10px 0px;
+	float:left;
+}
+.bktop{
+	border-top:1px solid #3c3c3c;
+	float:right;
+}
