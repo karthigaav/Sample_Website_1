@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Design 1</title>
+		<link href="stylesheets/mainstyles.css" type="text/css" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+	</head>
+	<body>
+		<div class="main-wrapper">
+			<div class="header-container">
+				<div class="logo-stuff">
+					<img src="images/logo.jpg" title="Logo" alt="Logo" />
+				</div>
+				<div class="social-icons">
+					<div class="social-links">
+						<ul>
+							<li><a href="#" title=""><img src="images/fb-icon.jpg" title=""/></a></li>
+							<li><a href="#" title=""><img src="images/linkedin-icon.jpg" title=""/></a></li>
+							<li><a href="#" title=""><img src="images/pint-icon.jpg" title=""/></a></li>
+							<li><a href="#" title=""><img src="images/pinte-icon.jpg" title=""/></a></li>
+							<li class="nomargin"><a href="#" title=""><img src="images/twit-icon.jpg" title=""/></a></li>
+						</ul>
+					</div>
+					<div class="contact-social">
+						<ul>
+							<li><img src="images/mail-icon.jpg" title=""/></li>
+							<li>support@centum.com</li>
+							<li class="mobile-margin"><img src="images/mobile-icon.jpg" title=""/></li>
+							<li class="nomargin">+48  880 450 120</li>
+						</ul>
+						<div class="clearall"></div>
+					</div>
+				</div>
+				<div class="clearall"></div>
+			</div>
+			<div id="navigation">
+				<ul>
+					<li><a href="#" title="">Home</a></li>
+					<li><a href="#" title="">Features</a></li>
+					<li><a href="#" title="">Shortcodes</a></li>
+					<li><a href="#" title="">Portfolio</a></li>
+					<li><a href="#" title="">Blog</a></li>
+					<li><a href="#" title="">Contact</a></li>
+				</ul>
+				<div class="clearall"></div>
+			</div>
+			<div class="slider">
+				<img src="images/sliderimg.jpg" title="" class="slide-image" />
+			</div>
+			<div class="describe">
+				<div class="dec_part">
+					<img src="images/sys_icon.jpg" title="" class="describe-image"/>
+					<h2>Fresh & Clean Design</h2>
+					<span>Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample SampleSample Sample Sample</span>
+				</div>
+				<div class="dec_part">
+					<img src="images/config_icon.jpg" title="" class="describe-image"/>
+					<h2>Easily Customization</h2>
+					<span>Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample SampleSample Sample Sample</span>
+				</div>
+				<div class="dec_part nomargin">
+					<img src="images/mob_icon.jpg" title="" class="describe-image"/>
+					<h2>Fully Responsive</h2>
+					<span>Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample Sample SampleSample Sample Sample</span>
+				</div>
+				<div class="clearall"></div>
+			</div>
+			<div class="recent-updates">
+				<div class="title-ru">
+					<h2>Recent Work</h2>
+					<span></span>
+					<div class="clearall"></div>
+				</div>
+				<div class="ru_image">
+					<a href="#"><img src="images/touch.jpg" title=""></a>
+					<h3>Touch Gestures</h3>
+					<span>Sample Sample Sample Sample Sample Sample</span>  
+				</div>
+				<div class="ru_image">
+					<a href="#"><img src="images/coffee_time.jpg" title=""></a>
+					<h3>Coffee Time</h3>
+					<span>Sample Sample Sample Sample Sample Sample</span>
+				</div>
+				<div class="ru_image">
+					<a href="#"><img src="images/sur_web.jpg" title=""></a>
+					<h3>Surfing Web</h3>
+					<span>Sample Sample Sample Sample Sample Sample</span>
+				</div>
+				<div class="ru_image nomargin">
+					<a href="#"><img src="images/wifi_keyboard.jpg" title=""></a>
+					<h3>Wireless Keyboard</h3>
+					<span>Sample Sample Sample Sample Sample Sample</span>
+				</div>
+				<div class="clearall"></div>
+			</div>
+			<div class="our-clients">
+				<div class="title-ru">
+					<h2>Our Clients</h2>
+					<span></span>
+					<div class="clearall"></div>
+				</div>
+				<div class="clients-logo">
+					<ul>
+						<li><img src="images/c_logo1.jpg" title="" /></li>
+						<li><img src="images/c_logo2.jpg" title="" /></li>
+						<li><img src="images/c_logo3.jpg" title="" /></li>
+						<li><img src="images/c_logo4.jpg" title="" /></li>
+						<li><img src="images/c_logo5.jpg" title="" /></li>
+					</ul>
+					<div class="clearall"></div>
+				</div>
+			</div>
+			</div>
+			<div class="bottom-container">
+					<div class="bc-details">
+						<div class="bc_title">
+							<h2>About Us</h2>
+							<span ></span>
+							<div class="clearall"></div>
+						</div>
+						<div class="bc_content">
+							<span>Footer sample Footer sample Footer sample Footer sample
+							  Footer sample Footer sample Footer sample Footer sample
+							</span>
+							<span>Footer sample Footer sample Footer sample Footer sample
+							  Footer sample Footer sample Footer sample Footer sample
+							</span>
+						</div>
+					</div>
+					<div class="bc-details">
+						<div class="bc_title">
+							<h2>Useful Links</h2>
+							<span></span>
+							<div class="clearall"></div>
+						</div>
+						<div class="bc_content">
+							<ul class="usefullinks">
+								<li><a href="#">Service Updates</a></li>
+								<li><a href="#">Community Forum</a></li>
+								<li><a href="#">Help Desk</a></li>
+								<li><a href="#">Terms of Use</a></li>
+								<li><a href="#">Validate License</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Knowledgebase</a></li>
+							<ul>						
+						</div>
+						<div class="clearall"></div>
+					</div>
+					<div class="bc-details">
+						<div class="bc_title">
+							<h2>Photo Stream</h2>
+							<span></span>
+							<div class="clearall"></div>
+						</div>
+						<div class="bc_content">
+							<ul class="bc_content-image">
+								<li><a href="#"><img src="images/image1.jpg" title="image1" /></a></li>
+								<li><a href="#"><img src="images/image2.jpg" title="image2" /></a></li>
+								<li><a href="#"><img src="images/image3.jpg" title="image3" /></a></li>
+								<li><a href="#"><img src="images/image4.jpg" title="image4" /></a></li>
+								<li><a href="#"><img src="images/image5.jpg" title="image5" /></a></li>
+								<li class="nomargin"><a href="#"><img src="images/image6.jpg" title="image6" /></a></li>
+							<ul>						
+						</div>
+					</div>
+					<div class="bc-details">
+						<div class="bc_title">
+							<h2>Latest Tweets</h2>
+							<span></span>
+							<div class="clearall"></div>
+						</div>
+						<div class="bc_content">
+							<span> @maquailaweb we love having them up</span>
+							<span> @maquailaweb we love having them up</span>
+						</div>
+					</div>
+					<div class="clearall"></div>
+					<div class="border-footer">
+						<div class="copyrightmsg">© Copyright 2012 by Centum. All rights Reserved.</div>
+						<div class="bktop">
+							<a href="#"><img src ="images/footer_bgright.jpg" title="" /> </a>
+						</div>
+					</div>
+					<div class="clearall"></div>
+					
+			</div>
+		
+		
+		
+	</body>
+</html>
